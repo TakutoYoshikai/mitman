@@ -1,5 +1,5 @@
 # mitman
-mitman is a tool to generate README.md and LICENSE.txt
+mitman is a tool to generate README.md and LICENSE.txt of MIT License
 
 ### Requirements
 * macOS or Ubuntu
