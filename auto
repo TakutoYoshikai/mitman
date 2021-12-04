@@ -2,7 +2,7 @@
 
 repo=`basename $PWD`
 user=""
-if [ -f "~/.mitman-user" ]; then
+if [ -f ~/.mitman-user ]; then
   user=`cat ~/.mitman-user`
 else
   echo "Create ~/.mitman-user and write your name there." 1>&2
