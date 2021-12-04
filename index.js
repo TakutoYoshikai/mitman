@@ -2,6 +2,11 @@
 
 const fs = require("fs");
 
+if (process.argv[2] === "-h") {
+  console.log("mitman <REPOSITORY NAME> <YOUR NAME>");
+  process.exit();
+}
+
 const name = process.argv.slice(3).reduce((a, b) => a + " " + b);
 
 const readme = "# " + process.argv[2] + "\n\n### Requirements\n\n### Usage\n**install**\n\n\n### License\nMIT License";
