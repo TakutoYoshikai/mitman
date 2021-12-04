@@ -13,7 +13,7 @@ npm install -g TakutoYoshikai/mitman
 
 **generate README.md and LICENSE.txt**
 ```bash
-mitman <AUTHOR NAME> <REPO NAME>
+mitman  <REPO NAME> <AUTHOR NAME>
 ```
 
 ### License
