@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "mitman": "./index.js"
+    "mitman": "./index.js",
+    "mitman-auto": "./auto"
   }
 }
